@@ -1,0 +1,96 @@
+.feedback{
+    margin-bottom: 50px;
+    @include _tablet {
+       margin-bottom: 50px;
+    }
+     
+    @include _desctop {
+      margin-bottom: 120px;
+    } 
+}
+.conteiner_feedback{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+form{
+  width: 100%;
+  @include _desctop {
+    width: 50%;
+  }  
+}
+
+.form_input{
+  cursor: pointer;  
+  height: 40px;
+  width: 90%;
+  padding-left: 15px;
+  margin-bottom: 5px;
+  background: var(--color-fon);   
+  border: none;  
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17,43px;   
+  
+      
+  &:hover, &:focus {   
+    outline: 0;
+    border: 1px solid var(--color-text);
+    border-radius:4px ;      
+  }    
+}
+
+
+
+.form_textarea { 
+  cursor: pointer;
+  resize: none; 
+  
+  width: 90%;
+  height: 120px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17,43px;  
+    
+  background: var(--color-fon);   
+  border: none;    
+      
+  padding: 12px 16px;   
+      
+  &:hover, &:focus {
+    outline: 0;
+    border: 1px solid var(--color-text);
+    border-radius:4px ;
+  }
+  @include _tablet {
+    width: 100%;
+  }
+
+  @include _desctop {
+    width: 100%;
+  }
+}
+
+.feedback_img{
+  width: 50%;
+  display: none;
+  @include _desctop {
+    display: flex;
+    min-width: 750px;
+  }
+}
+
+.checkbox_text{
+  position: relative;
+    
+  color: var(--color-text);
+  width: 90%;
+    
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17,43px;  
+}
+  

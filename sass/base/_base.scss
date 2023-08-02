@@ -1,0 +1,45 @@
+
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: 'Arial',sans-serif;  
+}
+
+body {  
+  background-color: var(--color-fon);
+  color: var(--color-text);  
+  text-decoration: none;
+  margin:0;      
+}
+
+.conteiner{
+  max-width:380px; 
+  margin: 0px auto;  
+  padding: 5px;
+  
+  @include _tablet {
+    max-width:768px;    
+    margin: 0px auto;
+    padding: 0 50px;
+  }
+
+  @include _desctop {
+    max-width:1440px;
+    margin: 0px auto;
+    padding: 0 135px;    
+  }
+}
+
+.img_conteiner{
+  overflow: hidden;
+  text-align: center;
+}
+
+img{
+  background-size: 100% auto; 
+  
+}
+  
+  
+  

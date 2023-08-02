@@ -1,0 +1,41 @@
+
+
+.tasks{
+    margin-bottom: 50px;
+    @include _tablet {
+       margin-bottom: 50px;
+    }
+     
+    @include _desctop {
+        margin-bottom: 120px;
+    } 
+}
+
+.conteiner_tasks{             
+  
+    margin-top: 60px;
+
+    @include _tablet {
+        display: flex;
+        justify-content: space-between;  
+    }
+      
+     @include _desctop {
+        display: flex;
+        justify-content: space-between;  
+    } 
+}
+
+.tasks_content{
+    display: flex;
+    align-items: center;
+    gap: 30px;   
+    
+    @include _tablet {
+        width: 50%;
+    }
+
+    @include _desctop {
+        width: 30%;
+    }    
+}
