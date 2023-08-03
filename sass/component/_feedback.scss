@@ -37,7 +37,7 @@ form{
       
   &:hover, &:focus {   
     outline: 0;
-    border: 1px solid var(--color-text);
+    border: 1px solid var(--color-text-accent);
     border-radius:4px ;      
   }    
 }
@@ -62,7 +62,7 @@ form{
       
   &:hover, &:focus {
     outline: 0;
-    border: 1px solid var(--color-text);
+    border: 1px solid var(--color-text-accent);
     border-radius:4px ;
   }
   @include _tablet {
@@ -94,3 +94,4 @@ form{
   line-height: 17,43px;  
 }
   
+

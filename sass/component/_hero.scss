@@ -57,9 +57,8 @@
 
 .arrow{
     margin-right: 20px;
-    &:hover,&:focus{
-        border: 1px solid var(--color-text);
-        border-radius: 8px;
+    &:hover,&:focus{        
+        animation: pulsing 2s infinite;
     }
 }
 
@@ -91,10 +90,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
-    color:var(--color-text);
-    &:hover,&:focus{
-        border: 1px solid var(--color-text);
-        
-    }
+    color:var(--color-text);  
+   
 }
 

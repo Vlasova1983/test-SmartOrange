@@ -43,8 +43,7 @@ footer{
     line-height: 24px; 
     padding: 5px;
     &:hover,&:focus{
-        border: 1px solid var(--color-text-accent);
-        border-radius: 8px;      
+        color: var(--color-text-accent      )  
     }
 }
 .footer_text-first{
@@ -54,6 +53,17 @@ footer{
     line-height: 19.92px; 
 }
 
+.icon_socio{
+    color: var(--color-fon);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px; 
+    padding: 5px;
+    &:hover,&:focus{
+        animation: pulsing 2s infinite;         
+    }
+}
+
 .block_text{
     display: flex;
     flex-direction: column;
@@ -61,11 +71,11 @@ footer{
     
     @include _tablet {
         width: 25%;
-     }
+    }
        
-     @include _desctop {
+    @include _desctop {
         width: 25%;
-     } 
+    } 
 
 }
 .box_socio{    

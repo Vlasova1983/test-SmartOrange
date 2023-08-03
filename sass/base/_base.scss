@@ -37,9 +37,26 @@ body {
 }
 
 img{
-  background-size: 100% auto; 
-  
+  background-size: 100% auto;   
 }
   
+.action_button{
+  position: relative;
+}
+.action_button:before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 42px;
+	background: rgba(#333333,0.3);	
+	transition: all 1s ease;
+}
+
+.action_button:hover:before,.action_button:focus:before {
+	width: 100%;
+  height: 100%;
+}
   
   
